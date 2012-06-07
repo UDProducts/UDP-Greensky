@@ -14,6 +14,8 @@
     <script language="javascript" src="scripts/jquery-ui.min.js" type="text/javascript"></script>
     <!--[if lt IE 9]><script language="javascript" src="scripts/excanvas.min.js" type="text/javascript"></script><![endif]-->
     <script language="javascript" src="scripts/bootstrap.js" type="text/javascript"></script>
+    <script language="javascript" src="scripts/jquery.jfontsize-1.0.min.js" type="text/javascript"></script>
+    <script language="javascript" src="scripts/page.js" type="text/javascript"></script>
 <!--	
     <script language="javascript" src="scripts/jquery.jqplot.min.js" type="text/javascript"></script>
     <script language="javascript" src="scripts/jqplot.barRenderer.min.js" type="text/javascript"></script>
@@ -56,20 +58,53 @@
     </script>-->
   </head>
   <body id="body" class="body ui-widget ui-widget-content">
-    <span class="tooltip">&nbsp;</span>
     <div id="content_container" class="container" >
       <div id="main" class="main" style="height:1000px;">
-        <div id="topbar" class="navbar-fixed-top">
+        <div id="hidden_login" class="hidden_login pull-right">
+          <div class="">
+            <form class="well form-inline">
+              <input type="text" class="input-small" placeholder="Email">
+              <input type="password" class="input-small" placeholder="Password">
+              <label class="checkbox">
+                <input type="checkbox"> Remember me
+              </label>
+              <button type="submit" class="btn">Sign in</button>
+            </form>
+          </div>
+        </div>
+        <div id="topbar" class="navbar-fixed-top navbar">
  		      <div class="navbar-inner">
     			  <div class="container">
+              <a class="brand" href="#"><img src="images/gsky_icon.png" alt="Logo"></img> GreenSKY</a>
+              <div class="nav-collapse collapse">
+                <ul class="nav">
+                  <li class="active">
+                    <a href="#">Home</a>
+                  </li>
+                  <li><a href="#">Link</a></li>
+                  <li><a href="#">Link</a></li>
+                </ul>
+              </div>
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <a href="#"
+                        class="dropdown-toggle"
+                        data-toggle="dropdown">
+                        Account
+                        <b class="caret"></b>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Help</a></li>
+                  </ul>
+                </li>
+                <li><a id="logout" href="javascript:void(0)" onClick="slideDownLogin();"><i class="icon-off icon-white"></i> Logout</a></li>
     			  </div>
     			</div>
         </div>
         <div id="alert_message" class="subnav subnav-fixed alert alert-info" style="">
   		    <a class="close" data-dismiss="alert" href="#">x</a>
       			Testing
-        </div>
-        <div id="menubar" class="component div" >
         </div>
         <div class="row">
           <div id="breadcrums" class="span10" >
@@ -84,33 +119,66 @@
             </ul>
           </div>
           <div id="toolbox" class="span2" >
-            <div class="plain">
-              <i class="icon-font"></i>+
-              <i class="icon-font"></i>-
-              <i class="icon-print"></i>
-              <i class="icon-envelope"></i>
-            </div>
+            <ul class="ui_tools nav">
+              <li><a href="#" id="plus-button"><i class="icon-font"></i>+</a></li>
+              <li><a href="#" id="minus-button"><i class="icon-font"></i>-</a></li>
+              <li><a href="javascript:void(0)" onClick="window.print()"id="print-botton"><i class="icon-print"></i></a></li>
+              <li><a href="javascript:void(0)" onClick=""id="mail-button"><i class="icon-envelope"></i></a></li>
+            </ul>
           </div>          
         </div>
         
         <div class="row">
-  
-          <div id="content_area" class="content_area span10 plain" >
+          <div id="content_area" class="content_area span10" >
             <div id="content" class="plain" >
+              Content of the content
             </div>
-            <div id="pagination" class="paginatio" >
+            <div id="pagination" class="pagination" >
+               <ul>
+                  <li><a href="#">Prev</a></li>
+                  <li class="active">
+                    <a href="#">1</a>
+                  </li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">Next</a></li>
+                </ul>
             </div>
           </div>
-          <div id="sidebar" class="span2 plain" >
+          <div id="sidebar" class="span2" >
+            <div class="sidebar plain">
+              Sidebar of the sidebar
+            </div>
           </div>
         </div>
-        <div id="guidelines" class="component div" >
+        <div class="row">
+          <div class="span12">
+            <div id="guidelines" class="plain" >
+              For any exam guidelines please click here
+            </div>
+          </div>
         </div>
-        <div id="comments" class="component div">
+        <div class="row">
+          <div class="span12">
+            <div id="comments" class="plain">
+              To view comments please click here
+            </div>
+          </div>
         </div>
-        <div id="videos" class="component div">
+        <div class="row">
+          <div class="span12">
+            <div id="videos" class="plain">
+              These are the youtube videos
+            </div>
+          </div>
         </div>
-        <div id="footer" class="component div">
+        <div class="row">      
+          <div class="span12">
+            <div id="footer" class="plain">
+              Footer of the footer
+            </div>
+          </div>
         </div>
       </div>
     </div>

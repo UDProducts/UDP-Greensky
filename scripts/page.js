@@ -73,6 +73,13 @@ function addLineChart(chartId, data) {
     });
 }
 
+function slideDownLogin() {
+    $("#hidden_login").slideToggle("slow");
+/*    alert("test");*/
+
+}
+
+
 function addPieChart(chartId, data) {
     var datas = data.split(",");
     
@@ -152,3 +159,30 @@ function switchState(nodeId, stateId) {
         currentState[nodeId] = stateId;
     }
 }
+
+
+
+$(document).ready(function() {
+  $(body).jfontsize({
+    btnMinusClasseId: '#minus-button',
+    btnPlusClasseId: '#plus-button',
+    btnMinusMaxHits: 5,
+    btnPlusMaxHits: 8,
+    sizeChange: 5
+  });
+ /* 
+  function mailpage()
+{
+  mail_str = "mailto:?subject=Check out the " + document.title;
+  mail_str += "&body=I thought you might be interested in the " + document.title;
+  mail_str += ". You can view it at, " + location.href; 
+  location.href = mail_str;
+}*/
+
+/*  $("#print-botton").click(window.print());*/
+
+/*  $("#mail-button").click(mailpage());*/
+
+
+});
+
