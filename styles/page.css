@@ -193,7 +193,7 @@ ul.ui_tools.nav {
 
 ul.ui_tools.nav li a {
   padding: 4px;
-  min-width: 33px;
+  min-width: 30px;
   text-align: center;
   background-color: #FBFBFB;
   background-image: -moz-linear-gradient(top, white, whiteSmoke);
@@ -227,7 +227,7 @@ ul.ui_tools.nav li {
 .hidden_login {
   position: fixed;
   top: 40px;
-  left: 62%x;
+  right: 3%;
   z-index: 10;
   display: none;
 }
