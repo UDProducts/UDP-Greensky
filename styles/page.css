@@ -227,7 +227,7 @@ ul.ui_tools.nav li {
 .hidden_login {
   position: fixed;
   top: 40px;
-  left: 866px;
+  left: 62%x;
   z-index: 10;
   display: none;
 }
