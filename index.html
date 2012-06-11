@@ -155,24 +155,39 @@
         </div>
         <div class="row">
           <div class="span12">
-            <div id="guidelines" class="plain" >
-              For any exam guidelines please click here
-            </div>
-            <div class="accordion" id="accordion2">
-              <div class="accordion-group">
-  	        <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">Collapsible Group Item #2</a>
+            <div id="guidelines" class="" >
+              <a class="primary btn btn-info" id="exam_guidelines_link" data-toggle="modal" href="#instructions_modal" ><i class="icon-question-sign icon-white"> </i> For any exam guidelines please click here</a>
+              <div class="modal hide fade" id="instructions_modal">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">×</button>
+                  <h3>Exam Guidelines</h3>
                 </div>
-                <div id="collapseTwo" class="accordion-body collapse">
-                  <div class="accordion-inner">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
-                </div>
-              </div>
-              <div class="accordion-group">
-  	        <div class="accordion-heading">
-                  <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">Collapsible Group Item #2</a>
-                </div>
-                <div id="collapseThree" class="accordion-body collapse">
-                  <div class="accordion-inner">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                <div class="modal-body">
+                  <p>            
+                    <div class="accordion" id="instructions">
+                      <div class="accordion-group">
+              	        <div class="accordion-heading">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#instructions" href="#collapseTwo">Collapsible Group Item #2</a>
+                        </div>
+                        <div id="collapseTwo" class="accordion-body collapse">
+                          <div class="accordion-inner">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                        </div>
+                      </div>
+                      <div class="accordion-group">
+              	        <div class="accordion-heading">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#instructions" href="#collapseThree">Collapsible Group Item #2</a>
+                        </div>
+                        <div id="collapseThree" class="accordion-body collapse">
+                          <div class="accordion-inner">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </p>   
+                </div>  
+                <div class="modal-footer">
+                  Was it helpful?
+                  <a href="#" class="btn" data-dismiss="modal">Yes</a> (or) 
+                  <a href="#" class="btn" data-dismiss="modal">No</a>
                 </div>
               </div>
             </div>
@@ -180,8 +195,44 @@
         </div>
         <div class="row">
           <div class="span12">
-            <div id="comments" class="plain">
-              To view comments please click here
+            <div id="comments" class="well">
+              <a id="view_comments" href="javascript:void(0)" onClick="slideDownComments();"><i class="icon-comment icon-white"></i> To view comments please click here <i class="icon-chevron-down icon-white pull-right"></i> </a>
+            </div>
+            <div id="comments_list" class="well">
+              <div class="comment-container" id="comment-2309">
+                <div class="comment-left">
+                  <img alt="" src="" class="avatar avatar-64 photo" height="64" width="64"/>
+                  <span>Today</span>
+                </div>
+                <div class="comment-right">
+                  <div class="comment-header">
+                    <span class="go-left" style="display: inline; ">Testing of the heading</span>
+                    <span class="comment-number go-right"/>
+                    <div class="clear"/>
+                    </div>
+                    <div class="comment-content">
+                      <p>The content of the comment comes here</p>
+                    </div>
+                  </div>    
+                </div>
+              </div>
+              <div class="comment-container" id="comment-2309">
+                <div class="comment-left">
+                  <img alt="" src="" class="avatar avatar-64 photo" height="64" width="64"/>
+                  <span>Today</span>
+                </div>
+                <div class="comment-right">
+                  <div class="comment-header">
+                    <span class="go-left" style="display: inline; ">Testing of the heading</span>
+                    <span class="comment-number go-right"/>
+                    <div class="clear"/>
+                    </div>
+                    <div class="comment-content">
+                      <p>The content of the comment comes here</p>
+                    </div>
+                  </div>    
+                </div>
+              </div>
             </div>
           </div>
         </div>

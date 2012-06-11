@@ -231,3 +231,77 @@ ul.ui_tools.nav li {
   z-index: 10;
   display: none;
 }
+
+#exam_guidelines_link {
+  display: block;
+}
+
+.row {
+  margin-bottom: 5px;
+}
+
+#comments {
+  padding: 6px 10px 2px 10px;
+  background-color: lightblue;
+  color: #0080A8;
+}
+
+a#view_comments {
+  display: block;
+  text-decoration: none;
+}
+
+div.comment-container {
+  width: 590px;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  border: 1px solid white;
+  margin-bottom: 10px;
+  border: 1px solid #DDD;
+}
+
+div.comment-container .comment-left {
+  float: left;
+  clear: left;
+  width: 72px;
+  text-align: center;
+  color: #444;
+  font-size: 11px;
+  overflow: hidden;
+  background-color: white;
+  padding: 10px;
+  padding-top: 15px;
+}
+
+div.comment-container .comment-right {
+  float: left;
+  clear: right;
+  width: 464px;
+  overflow: hidden;
+  padding-left: 10px;
+  background-color: 
+  white;
+  padding-top: 15px;
+}
+
+div.comment-container .comment-right .comment-header {
+  width: 428px;
+  margin: 0px 0px 10px 0px;
+  font-weight: bold;
+  font-style: italic;
+  color: #666;
+  font-size: 1.167em;
+}
+
+div.comment-container .comment-right .comment-content {
+  padding: 2px;
+}
+
+div#comments_list {
+  display: none;
+  margin-top: -20px;
+  margin-bottom: 2px;
+  background: lightblue;
+}

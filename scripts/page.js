@@ -79,6 +79,10 @@ function slideDownLogin() {
 
 }
 
+function slideDownComments() {
+    $("#comments_list").slideToggle("slow");
+/*    alert("test");*/
+}
 
 function addPieChart(chartId, data) {
     var datas = data.split(",");
@@ -170,6 +174,12 @@ $(document).ready(function() {
     btnPlusMaxHits: 8,
     sizeChange: 5
   });
+  
+  $("#instructions_modal").modal({
+    keyboard: true,
+    show: false,
+    backdrop: true
+  })
  /* 
   function mailpage()
 {
