@@ -80,7 +80,7 @@ function slideDownLogin() {
 }
 
 function slideDownComments() {
-    $("#comments_list").slideToggle("slow");
+    $("#comments_list").slideToggle("fast");
 /*    alert("test");*/
 }
 
