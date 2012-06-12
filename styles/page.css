@@ -247,7 +247,7 @@ ul.ui_tools.nav li {
 }
 
 a#view_comments {
-  display: block;
+//  display: block;
   text-decoration: none;
 }
 
@@ -301,7 +301,71 @@ div.comment-container .comment-right .comment-content {
 
 div#comments_list {
   display: none;
-  margin-top: -20px;
+/*  margin-top: -20px;*/
+
   margin-bottom: 2px;
   background: lightblue;
+}
+
+div.carousel div.carousel-inner div.item span.item_each {
+  display: block;
+  float: left;
+  padding: 4px 4px 4px 4px;
+  margin: 5px 4px 5px 4px;
+  background: white;
+  text-align: center;
+  -webkit-box-shadow: 1px 0px 2px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    1px 0px 2px rgba(50, 50, 50, 0.75);
+  box-shadow:         1px 0px 2px rgba(50, 50, 50, 0.75);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+#footer_list {
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+
+#footer_list li {
+  float: left;
+  margin-right: 8px;
+}
+
+div.carousel div.carousel-inner div.item span.item_each span.titlec {
+  padding: 30px;
+}
+
+div.carousel div.carousel-inner div.item {
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#videos {
+  background-color: #379BD3;
+  padding-top: 15px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.side_form_size {
+  width: 130px;
+}
+
+div.form-actions.sidebar_actions {
+  padding: 2px;
+  margin: 2px;
+}
+
+form.sidebar_fill {
+  background: whiteSmoke;
+  border: 1px solid #DDD;
+  padding: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
