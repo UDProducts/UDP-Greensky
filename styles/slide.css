@@ -85,7 +85,7 @@ Version: 1.0
 
 .tab .sep {color:#414141}
 
-.tab a.open, .tab a.close {
+.tab a.open, .tab a.closes {
 	height: 20px;
 	line-height: 20px !important;
 	padding-left: 30px !important;
@@ -97,9 +97,9 @@ Version: 1.0
 }
 
 .tab a.open {background: url(../images/bt_open.png) no-repeat left 0;}
-.tab a.close {background: url(../images/bt_close.png) no-repeat left 0;}
+.tab a.closes {background: url(../images/bt_closes.png) no-repeat left 0;}
 .tab a:hover.open {background: url(../images/bt_open.png) no-repeat left -19px;}
-.tab a:hover.close {background: url(../images/bt_close.png) no-repeat left -19px;}
+.tab a:hover.closes {background: url(../images/bt_closes.png) no-repeat left -19px;}
 
 /* sliding panel */
 #toppanel {

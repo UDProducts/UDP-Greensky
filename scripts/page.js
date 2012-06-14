@@ -205,12 +205,12 @@ function showMyVideos(data) {
 
 
 $(document).ready(function() {
-  $(body).jfontsize({
+  $(document.body).jfontsize({
     btnMinusClasseId: '#minus-button',
     btnPlusClasseId: '#plus-button',
     btnMinusMaxHits: 5,
-    btnPlusMaxHits: 8,
-    sizeChange: 5
+    btnPlusMaxHits: 5,
+    sizeChange: 1
   });
   
   $("#instructions_modal").modal({
@@ -225,6 +225,9 @@ $(document).ready(function() {
   $('#contactable').contactable({
     subject: 'A Feeback Message'
   });
+
+   $(".accordion").accordion();
+
  /* 
   function mailpage()
 {
