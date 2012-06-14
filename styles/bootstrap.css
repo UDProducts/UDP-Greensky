@@ -3993,6 +3993,12 @@ input[type="submit"].btn.btn-mini {
   *zoom: 1;
 }
 
+.breadcrumb a
+{
+  color:#8BC43F;
+}
+
+
 .breadcrumb .divider {
   padding: 0 5px;
   color: #999999;
@@ -4032,6 +4038,7 @@ input[type="submit"].btn.btn-mini {
   text-decoration: none;
   border: 1px solid #ddd;
   border-left-width: 0;
+  color:#8BC43F;
 }
 
 .pagination a:hover,
@@ -4985,3 +4992,4 @@ color:#00CCFF;
   height:68px;
   margin-bottom:20px;
 }
+
