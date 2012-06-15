@@ -2401,7 +2401,7 @@ table .span24 {
   padding: 4px 0;
   margin: 1px 0 0;
   list-style: none;
-  background-color: #ffffff;
+  background: url("../images/subnavbg.png") repeat-x scroll center top;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
   *border-right-width: 2px;
@@ -2429,7 +2429,7 @@ table .span24 {
   *margin: -5px 0 5px;
   overflow: hidden;
   background-color: #e5e5e5;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px #ffffff;
 }
 
 .dropdown-menu a {
@@ -2438,7 +2438,7 @@ table .span24 {
   clear: both;
   font-weight: normal;
   line-height: 18px;
-  color: #333333;
+  color: white;
   white-space: nowrap;
 }
 
@@ -2447,7 +2447,7 @@ table .span24 {
 .dropdown-menu .active > a:hover {
   color: #ffffff;
   text-decoration: none;
-  background-color: #0088cc;
+  background-color: #55AB2E;
 }
 
 .open {
@@ -4999,4 +4999,9 @@ color:#00CCFF;
   height:68px;
   margin-bottom:20px;
 }
-
+.social
+{
+  float: right;
+  margin-right: 389px;
+  margin-top: 17px;
+}
