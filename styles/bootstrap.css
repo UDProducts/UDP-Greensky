@@ -3580,7 +3580,7 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #8BC43F;
+  background-color: #71B31B;
    -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -3995,7 +3995,7 @@ input[type="submit"].btn.btn-mini {
 
 .breadcrumb a
 {
-  color:#8BC43F;
+  color:#84C72C;
 }
 
 
@@ -4038,7 +4038,7 @@ input[type="submit"].btn.btn-mini {
   text-decoration: none;
   border: 1px solid #ddd;
   border-left-width: 0;
-  color:#8BC43F;
+  color:#84C72C;
 }
 
 .pagination a:hover,
@@ -4816,6 +4816,7 @@ a.badge:hover {
 .accordion-heading .accordion-toggle {
   display: block;
   padding: 8px 15px;
+  color:#84C72C;
 }
 
 .accordion-toggle {
