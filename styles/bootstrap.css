@@ -3580,7 +3580,11 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
-  background-color: #71B31B;
+   background-color: #00CC33;
+    background-image: url("../images/bg-barraverde.jpg");
+    background-position: center center;
+    background-repeat: repeat-x;
+    margin: 0 auto;
    -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
@@ -3805,9 +3809,11 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .nav > li > a:hover {
-  color: #ffffff;
-  text-decoration: none;
-  background-color: transparent;
+  background-image: url("../images/botton-hover.jpg");
+    background-position: center top;
+    background-repeat: repeat;
+    color: #FFFFFF;
+   
 }
 
 .navbar .nav .active > a,
