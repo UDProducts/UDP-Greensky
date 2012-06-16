@@ -6,13 +6,13 @@ cursor_positions:
   - :path: scripts/page.js
     :cursor_offset: 0
     :timestamp: 2012-06-13 15:12:42 +05:30
-  - :path: index.html
-    :cursor_offset: 3560
-    :timestamp: 2012-06-14 00:27:46 +05:30
   - :path: styles/page.css
     :cursor_offset: 0
     :timestamp: 2012-06-13 15:12:42 +05:30
   - :path: styles/bootstrap.css
     :cursor_offset: 99527
     :timestamp: 2012-06-14 00:29:21 +05:30
+  - :path: index.html
+    :cursor_offset: 19385
+    :timestamp: 2012-06-16 15:09:27 +05:30
 files_to_retain: 0

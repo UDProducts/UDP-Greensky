@@ -272,8 +272,7 @@ div.comment-container .comment-left {
   font-size: 11px;
   overflow: hidden;
   background-color: white;
-  padding: 10px;
-  padding-top: 15px;
+ padding: 5px 6px 7px;
 }
 
 div.comment-container .comment-right {
@@ -281,10 +280,10 @@ div.comment-container .comment-right {
   clear: right;
   width: 464px;
   overflow: hidden;
-  padding-left: 10px;
+  padding-left: 2px;
   background-color: 
   white;
-  padding-top: 15px;
+  padding-top: 2px;
 }
 
 div.comment-container .comment-right .comment-header {
@@ -369,4 +368,44 @@ form.sidebar_fill {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
+}
+
+.user
+{
+  color: #60C060;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: underline;
+}
+.says
+{
+  font-size:10px;
+  color:lightgray;
+}
+.comment-content
+{
+  font-size:12px;
+  font-weight:normal;
+}
+.comment-left img
+{
+  border: 1px solid lightgray;
+    height: 70px;
+    padding: 1px;
+    width: 70px;
+}
+#comments_like, #comments_dislike, #comments_reply1, #comments_reply 
+{
+  color:gray;
+  cursor:pointer;
+}
+#reply, #reply
+{
+   border-radius: 0 0 0 0;
+    height: 77px;
+    width: 357px;
+}
+.comments_text1, .comments_text2
+{
+  display:none;
 }

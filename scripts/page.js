@@ -83,6 +83,14 @@ function slideDownComments() {
     $("#comments_list").slideToggle("fast");
 /*    alert("test");*/
 }
+function slideDownReply1() {
+    $(".comments_text1").slideToggle("fast");
+/*    alert("test");*/
+}
+function slideDownReply2() {
+    $(".comments_text2").slideToggle("fast");
+/*    alert("test");*/
+}
 
 function addPieChart(chartId, data) {
     var datas = data.split(",");
@@ -240,6 +248,11 @@ $(document).ready(function() {
 /*  $("#print-botton").click(window.print());*/
 
 /*  $("#mail-button").click(mailpage());*/
+
+function slideDownReply() {
+    alert("test");
+
+}
 
 
 });
