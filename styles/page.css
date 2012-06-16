@@ -1,3 +1,4 @@
+
 .body { border: none !important; font-size: 80%; margin-top: 50px;}
 
 .component { position: absolute; }
@@ -304,7 +305,7 @@ div#comments_list {
 /*  margin-top: -20px;*/
 
   margin-bottom: 2px;
-  background: lightblue;
+  
 }
 
 div.carousel div.carousel-inner div.item span.item_each {
