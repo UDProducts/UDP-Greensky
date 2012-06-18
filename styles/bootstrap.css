@@ -3143,7 +3143,7 @@ input[type="submit"].btn.btn-mini {
 .alert .close {
   position: relative;
   top: -2px;
-  right: -21px;
+  right: 5px;
   line-height: 18px;
 }
 
