@@ -335,6 +335,7 @@ div.carousel div.carousel-inner div.item span.item_each {
 }
 
 div.carousel div.carousel-inner div.item span.item_each span.titlec {
+  color: #464646;
   padding: 30px;
 }
 
@@ -345,6 +346,7 @@ div.carousel div.carousel-inner div.item {
 }
 
 #videos {
+  border: 5px solid #AACEAA;
   background-color: #379BD3;
   padding-top: 15px;
   -webkit-border-radius: 3px;
