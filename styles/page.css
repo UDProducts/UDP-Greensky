@@ -409,3 +409,7 @@ form.sidebar_fill {
 {
   display:none;
 }
+table
+{
+  font-size:inherit;
+}
