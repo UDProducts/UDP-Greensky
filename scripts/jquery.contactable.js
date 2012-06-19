@@ -77,7 +77,7 @@
 			*	</form>
 			*/
 
-			jQuery(this).html('<div id="contactable_inner"></div><form id="contactForm" method="" action=""><div id="loading"></div><div id="callback"></div><div class="holder"><p><label for="name">'+options.name+'<span class="green"> * </span></label><br /><input id="name" class="contact validate" name="name" /></p><p><label for="email">'+options.email+' <span class="green"> * </span></label><br /><input id="email" class="contact validate" name="email" /></p>'+dropdown+'<p><label for="message">'+options.message+' <span class="green"> * </span></label><br /><textarea id="message" name="message" class="message validate" rows="4" cols="30" ></textarea></p><p><input class="submit" type="submit" value="'+options.submit+'"/></p><p class="disclaimer">'+options.disclaimer+'</p></div></form>');
+			jQuery(this).html('<div id="contactable_inner"></div><form id="contactForm" method="" action=""><div id="loading"></div><div id="callback"></div><div class="holder"><p><label for="name">'+options.name+'<span class="green"> * </span></label><input id="name" class="contact validate" name="name" /></p><p><label for="email">'+options.email+' <span class="green"> * </span></label><input id="email" class="contact validate" name="email" /></p>'+dropdown+'<p><label for="message">'+options.message+' <span class="green"> * </span></label><textarea id="message" name="message" class="message validate" rows="4" cols="30" ></textarea></p><p><input class="submit" type="submit" value="'+options.submit+'"/></p><p class="disclaimer">'+options.disclaimer+'</p></div></form>');
 			
 			// Toggle the form visibility
 			jQuery(this_id_prefix+'div#contactable_inner').toggle(function() {

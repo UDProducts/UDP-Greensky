@@ -180,6 +180,10 @@ function loadVideo(playerUrl, autoplay) {
       false, {allowfullscreen: 'true'});
 }
 
+function loadSidebar() {
+  
+}
+
 
 function showMyVideos(data) {
   var feed = data.feed;
@@ -212,7 +216,12 @@ function showMyVideos(data) {
 }
 
 
+
 $(document).ready(function() {
+  $('.accordion-toggle').mouseover(function() {
+    $(this).click();
+  });
+  
   $(document.body).jfontsize({
     btnMinusClasseId: '#minus-button',
     btnPlusClasseId: '#plus-button',
@@ -233,9 +242,10 @@ $(document).ready(function() {
   $('#contactable').contactable({
     subject: 'A Feeback Message'
   });
+  
+  
 
-   $(".accordion").accordion();
-
+   
  /* 
   function mailpage()
 {
@@ -249,11 +259,7 @@ $(document).ready(function() {
 
 /*  $("#mail-button").click(mailpage());*/
 
-function slideDownReply() {
-    alert("test");
-
-}
-
+$("#collapseTwo").collapse('show')
 
 });
 

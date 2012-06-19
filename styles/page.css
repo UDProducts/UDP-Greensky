@@ -396,12 +396,12 @@ form.sidebar_fill {
     padding: 1px;
     width: 70px;
 }
-#comments_like, #comments_dislike, #comments_reply1, #comments_reply 
+#comments_like, #comments_dislike, #comments_reply1, #comments_reply2 
 {
   color:gray;
   cursor:pointer;
 }
-#reply, #reply
+#reply, #reply  
 {
    border-radius: 0 0 0 0;
     height: 77px;
@@ -410,4 +410,8 @@ form.sidebar_fill {
 .comments_text1, .comments_text2
 {
   display:none;
+}
+table
+{
+  font-size:inherit;
 }
