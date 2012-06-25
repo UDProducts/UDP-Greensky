@@ -3772,7 +3772,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a {
   float: none;
-  padding: 5px 10px 11px;
+  padding: 6px 10px 11px;
   line-height: 19px;
   color: #EEEEEE;
   text-decoration: none;

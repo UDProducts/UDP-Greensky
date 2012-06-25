@@ -164,8 +164,8 @@
                       <li><a href="#">Separated link</a></li>
                     </ul>
                   </li>
-                  <li><a class="link" href="#">Link</a></li>
-                  <li><a class="link" href="#">Link</a></li>
+                  <li><a href="#">Link</a></li>
+                  <li><a href="#">Link</a></li>
                 
               </div>
               <ul class="nav pull-right" id="submenu1">
