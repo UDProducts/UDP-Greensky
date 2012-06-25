@@ -79,6 +79,18 @@ function slideDownLogin() {
 
 }
 
+function slideDownComments() {
+    $("#comments_list").slideToggle("fast");
+/*    alert("test");*/
+}
+function slideDownReply1() {
+    $(".comments_text1").slideToggle("fast");
+/*    alert("test");*/
+}
+function slideDownReply2() {
+    $(".comments_text2").slideToggle("fast");
+/*    alert("test");*/
+}
 
 function addPieChart(chartId, data) {
     var datas = data.split(",");
@@ -161,15 +173,79 @@ function switchState(nodeId, stateId) {
 }
 
 
+function loadVideo(playerUrl, autoplay) {
+  swfobject.embedSWF(
+      playerUrl + '&rel=1&border=0&fs=1&autoplay=' + 
+      (autoplay?1:0), 'player', '490', '250', '9.0.0', false, 
+      false, {allowfullscreen: 'true'});
+}
+
+function loadSidebar() {
+  
+}
+
+
+function showMyVideos(data) {
+  var feed = data.feed;
+  var entries = feed.entry || [];
+  var html = ['<div class="carousel-inner">'];
+  for (var i = 0; i < entries.length; i=i+4) {
+    if(i == 0) {
+      html.push('<div class="item active">');
+    }
+    else {
+      html.push('<div class="item">')
+    }
+    for (var j = i; j < i+4; j++) {
+      var entry = entries[j];
+      var title = entry.title.$t.substr(0, 20);
+      var thumbnailUrl = entries[j].media$group.media$thumbnail[0].url;
+      var playerUrl = entries[j].media$group.media$content[0].url;
+      html.push('<span class="item_each" onclick="loadVideo(\'', playerUrl, '\', true)">',
+                  '<img src="', thumbnailUrl, '" width="220" height="120"/>',
+                  '<br/><span class="titlec">', title, '</span></span>');
+                
+    }
+    html.push("</div>");
+  }
+  html.push('</div><a class="carousel-control left" href="#videos" data-slide="prev">&lsaquo;</a><a class="carousel-control right" href="#videos" data-slide="next">&rsaquo;</a><br style="clear: left;"/>');
+  document.getElementById('videos').innerHTML = html.join('');
+  if (entries.length > 0) {
+    loadVideo(entries[0].media$group.media$content[0].url, false);
+  }
+}
+
+
 
 $(document).ready(function() {
-  $(body).jfontsize({
+  $('.accordion-toggle').mouseover(function() {
+    $(this).click();
+  });
+  
+  $(document.body).jfontsize({
     btnMinusClasseId: '#minus-button',
     btnPlusClasseId: '#plus-button',
     btnMinusMaxHits: 5,
-    btnPlusMaxHits: 8,
-    sizeChange: 5
+    btnPlusMaxHits: 5,
+    sizeChange: 1
   });
+  
+  $("#instructions_modal").modal({
+    keyboard: true,
+    show: false,
+    backdrop: true
+  })
+  $('.carousel').carousel({
+    interval: 5000
+  }); 
+  
+  $('#contactable').contactable({
+    subject: 'A Feeback Message'
+  });
+  
+  
+
+   
  /* 
   function mailpage()
 {
@@ -183,6 +259,7 @@ $(document).ready(function() {
 
 /*  $("#mail-button").click(mailpage());*/
 
+$("#collapseTwo").collapse('show')
 
 });
 

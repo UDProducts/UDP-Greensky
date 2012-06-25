@@ -1,3 +1,6 @@
 --- 
-open_files: []
-
+open_files: 
+  - scripts/page.js
+  - index.html
+  - styles/page.css
+  - styles/bootstrap.css
