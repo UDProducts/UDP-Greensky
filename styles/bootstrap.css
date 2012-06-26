@@ -4786,7 +4786,7 @@ a.badge:hover {
 
 .accordion {
   margin-bottom: 18px;
-  border:1px solid lightgray;
+  border:1px solid #AAE495;
 }
 
 .accordion-group {
@@ -4803,7 +4803,7 @@ a.badge:hover {
   display: block;
   padding: 8px 15px;
   color:black;	
-  background:lightgray;
+  background: -moz-linear-gradient(center top , #C5F0BE 0%, #AAE495 25%, #89D561 50%, #5DB91B 50%, #87D166 75%, #A9E59D 100%) repeat scroll 0 0 transparent;
   
 }
 
