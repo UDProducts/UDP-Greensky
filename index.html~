@@ -145,6 +145,12 @@
              <a class="social" href="#">
               <img src="images/facebook_icon.gif" alt="fb_icon"></img>
               <img src="images/twitter_icon.png" alt="tweet_icon"></img> 
+              <img id="rss" src="images/feed-icon-14x14.png" alt="rss_icon"></img> 
+              <img id="gplus" src="images/gplus.png" alt="gplus_icon"></img> 
+              <img id="del" src="images/del.png" alt="del_icon"></img> 
+              <img id="su" src="images/su.jpg" alt="su_icon"></img> 
+              <img id="lin" src="images/lin.jpeg" alt="lin_icon"></img> 
+              <img id="email" src="images/mail.gif" alt="mail_icon"></img> 
              </a>
             
 
@@ -169,7 +175,7 @@
       <li><a href='#'>Sub 2 - 1</a></li>
       <li>
         <a href='#'>Sub 2 - 2</a>
-        <ul>
+        <ul class="second">
           <li>
             <a href='#'>Sub 2 - 2 - 1</a>
             <ul>
@@ -249,7 +255,7 @@
               </li>
               <li class="active">Data</li>
             </ul>
-          </div>
+          </div>li>
           <div class="span2" >
             <ul class="ui_tools nav">
               <li><a href="#" id="plus-button"><i class="icon-font"></i>+</a></li>
