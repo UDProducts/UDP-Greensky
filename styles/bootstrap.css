@@ -3560,18 +3560,18 @@ input[type="submit"].btn.btn-mini {
   min-height: 40px;
   padding-right: 20px;
   padding-left: 20px;
-   background-color: #00CC33;
+ /* background-color: #00CC33;
     background-image: url("../images/bg-barraverde.jpg");
     background-position: center center;
-    background-repeat: repeat-x;
+    background-repeat: repeat-x; */
     margin: 0 auto;
    -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#408DD2', endColorstr='#0C5DA5', GradientType=0);
+ /* filter: progid:dximagetransform.microsoft.gradient(startColorstr='#408DD2', endColorstr='#0C5DA5', GradientType=0);
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
-          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .navbar .container {
@@ -3770,7 +3770,7 @@ input[type="submit"].btn.btn-mini {
 
 .navbar .nav > li > a {
   float: none;
-  padding: 12px 10px 11px;
+  padding: 3px 13px 6px;
   line-height: 19px;
   color: #EEEEEE;
   text-decoration: none;
