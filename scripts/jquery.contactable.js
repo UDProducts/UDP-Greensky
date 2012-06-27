@@ -200,5 +200,31 @@ else if(e.which == 8)
   
 }
 });
+$('div#comment-2309').live('keyup', function(e) {
+//alert(e.which);
+if(e.which != 8)
+{
+ if (typeof x=='undefined' && e.which!=16)
+  {
+     x=9;
+     
+  }
+ else if(x>0 && e.which!=16)
+  {
+     x=x-1;
+  }
+ else if(x<0 && e.which!=16)
+  {
+     x=0;
+  }
+  $('span#count').text(x+" characters left");
+}
+else if(e.which == 8)
+{
+  x=x+1;
+  $('span#count').text(x+" characters left");
+  
+}
+});
  
 })(jQuery);

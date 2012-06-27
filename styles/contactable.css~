@@ -15,7 +15,7 @@
 	*position:absolute;
 	text-indent:-100000px;
 	top:121px;
-	
+	*margin-top:10px;
 	width:44px;
 	z-index:100000;
 }
@@ -24,7 +24,7 @@
 	background-color:#5BB75B;
 	border:2px solid #FFFFFF;
 	color:#FFFFFF;
-	height:450px;
+	height:356px;
 	left:0;
 	margin-left:-400px;
 	*margin-left:-434px;
@@ -47,7 +47,7 @@
 	border:1px solid #dfdfdf;
 	font-size:1em;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	margin-bottom:10px;
+	/*margin-bottom:10px;*/
 }
 #contactable form#contactForm select {
 	width:335px;
@@ -153,3 +153,8 @@
     -webkit-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
     -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
     box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; }
+   textarea#message
+    {
+      width:325px;
+    }
+

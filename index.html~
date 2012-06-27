@@ -150,7 +150,7 @@
               <img id="del" src="images/del.png" alt="del_icon"></img> 
               <img id="su" src="images/su.jpg" alt="su_icon"></img> 
               <img id="lin" src="images/lin.jpeg" alt="lin_icon"></img> 
-              <img id="email" src="images/mail.gif" alt="mail_icon"></img> 
+              <img id="email" src="images/email.gif" alt="mail_icon"></img> 
              </a>
             
 
@@ -441,7 +441,7 @@
                           <a class="" id="comments_dislike"><i class="icon-thumbs-down"></i>dislike</a>&nbsp;
                            <a class="" id="comments_reply" href="javascript:void(0)" onClick="slideDownReply1();"><i class="icon-repeat"></i>Reply</a><br />
                            <div class="comments_text1">
-                        	   <textarea class="field" type="text" name="email" id="reply" placeholder="Enter Your comment here"></textarea><br />
+                        	   <textarea class="field" type="text" name="email" id="reply" placeholder="Enter Your comment here"></textarea><br /><span id="count"></span>
           			             <input type="submit" name="submit" value="Submit" class="btn primary" />
 	                       </div>	
                       </div>
@@ -466,7 +466,7 @@
                           <a class="" id="comments_dislike"><i class="icon-thumbs-down"></i>dislike</a>&nbsp;
                            <a class="" id="comments_reply" href="javascript:void(0)" onClick="slideDownReply2();"><i class="icon-repeat"></i>Reply</a><br />
                            <div class="comments_text2">
-                        	   <textarea class="field" type="text" name="email" id="reply" placeholder="Enter Your comment here"></textarea><br />
+                        	   <textarea class="field" type="text" name="email" id="reply" placeholder="Enter Your comment here" maxlength="10"></textarea><br /><span id="count"></span>
           			             <input type="submit" name="submit" value="Submit" class="btn primary" />
 			                    </div>	
   

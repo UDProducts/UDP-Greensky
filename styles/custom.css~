@@ -174,7 +174,7 @@ z-index:3000;
   -moz-border-radius: 50%;
   text-shadow: 2px 2px 3px #FFFFFF;
 }
-#rss,#del,#su,#email{
+#rss,#del,#su,input#email{
 height:18px;
 width:17px;
 }
@@ -206,8 +206,8 @@ width:19px;
   color: #FFFFFF !important;
   text-shadow: 2px 2px 3px #FFFFFF;
    border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
   -webkit-box-shadow: 2px 2px 2px #222222;
   -moz-box-shadow: 2px 2px 2px #222222;
   box-shadow: 2px 2px 2px #222222;

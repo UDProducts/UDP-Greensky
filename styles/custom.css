@@ -174,7 +174,7 @@ z-index:3000;
   -moz-border-radius: 50%;
   text-shadow: 2px 2px 3px #FFFFFF;
 }
-#rss,#del,#su,#email{
+#rss,#del,#su,img#email{
 height:18px;
 width:17px;
 }
