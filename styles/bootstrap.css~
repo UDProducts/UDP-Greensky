@@ -3595,7 +3595,7 @@ input[type="submit"].btn.btn-mini {
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 =======
-
+>>>>>>> 21e045b4b5274a5527596c28a1c82081dca95634
 
 .navbar .container {
   width: auto;

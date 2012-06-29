@@ -1,0 +1,28 @@
+/* Basic code - don't modify */
+ 
+ /*#menu { display: block; margin: 0; padding: 0; position: relative; }*/
+  #menu li { display: block; list-style: none; margin: 0; padding: 0; float: left; position: relative; }
+  #menu a { display: block; }
+  #menu ul { display: none; position: absolute; left: 0; margin: 0; padding: 0; }
+  * html #menu ul { line-height: 0; } /* IE6 "fix" */
+  	#menu ul a { zoom: 2; } /* IE6/7 fix */
+    #menu ul li { float: none; }
+    #menu ul ul { top: 0; }
+    
+/* Essentials - configure this */
+
+#menu ul { width: 130px; }
+#menu ul ul { left: 180px; }
+
+/* Everything else is theming */
+ 
+
+#menu *:hover { background-color: none; }
+
+  #menu li.hover a { background-color: #EEEEEE;position:relative; }
+  #menu ul { top: 25px; }
+    #menu ul li a { background-color: #5E5A5A; }
+      #menu ul a.hover { background-color: #FFFFFE; }
+   #menu ul a { border-bottom: 1px solid white; border-right: none; opacity: 0.9; filter: alpha(opacity=90); }
+/* #menu ul a { border-bottom: none; } - I also needed this for IE6/7 */
+
