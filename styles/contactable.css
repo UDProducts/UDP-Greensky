@@ -14,7 +14,7 @@
 	position:fixed;
 	*position:absolute;
 	text-indent:-100000px;
-	top:102px;
+	top:121px;
 	*margin-top:10px;
 	width:44px;
 }
@@ -154,9 +154,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', end
     -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
     box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; }
     
-    .message
+   textarea#message
     {
       width:325px;
     }
-
- 
