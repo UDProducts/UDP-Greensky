@@ -60,7 +60,7 @@
 .content.center { margin-left: auto; margin-right: auto; }
 .content.right { margin-left: auto; margin-right: 0px; }
 
-.main { position: relative; height: 640px; }
+.main { position: relative; }
 
 .center > .ui-accordion > .ui-accordion-header { min-width: 99%; }
 .section { overflow: visible !important; padding: 0px !important; }

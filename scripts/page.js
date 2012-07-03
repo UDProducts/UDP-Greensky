@@ -83,6 +83,11 @@ function slideDownComments() {
     $("#comments_list").slideToggle("fast");
 /*    alert("test");*/
 }
+
+function slideDownGuideLines() {
+    $('#instructions_modal').slideToggle("fast");
+}
+
 function slideDownReply1() {
     $(".comments_text1").slideToggle("fast");
 /*    alert("test");*/
@@ -259,7 +264,21 @@ $(document).ready(function() {
 
 /*  $("#mail-button").click(mailpage());*/
 
-$("#collapseTwo").collapse('show')
+  $("#side_bar_item_1").collapse('show')
+
+  $('#tabs a:first').tab('show');
+  
+  $('#tabs a').click(function (e) {
+    e.preventDefault();
+    $(this).tab('show');
+  })
+  
+  jQuery('#contactable').liveValidation({
+      validIco:    'images/valid.png', 
+      invalidIco:  'images/invalid.png', 
+      required:    ['name', 'email', 'message'], 
+      fields:        {name: /^[a-z]+$/i}
+  });
 
 });
 
