@@ -213,7 +213,7 @@ function showMyVideos(data) {
     }
     html.push("</div>");
   }
-  html.push('</div><a class="carousel-control left" href="#videos" data-slide="prev">&lsaquo;</a><a class="carousel-control right" href="#videos" data-slide="next">&rsaquo;</a><br style="clear: left;"/>');
+  html.push('</div><a class="carousel-control left" href="#videos" data-slide="prev"></a><a class="carousel-control right" href="#videos" data-slide="next"></a><br style="clear: left;"/>');
   document.getElementById('videos').innerHTML = html.join('');
   if (entries.length > 0) {
     loadVideo(entries[0].media$group.media$content[0].url, false);

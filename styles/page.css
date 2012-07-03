@@ -335,6 +335,7 @@ div.carousel div.carousel-inner div.item span.item_each {
 }
 
 div.carousel div.carousel-inner div.item span.item_each span.titlec {
+  color: #464646;
   padding: 30px;
 }
 
@@ -345,6 +346,7 @@ div.carousel div.carousel-inner div.item {
 }
 
 #videos {
+  border: 5px solid #AACEAA;
   background-color: #379BD3;
   padding-top: 15px;
   -webkit-border-radius: 3px;
@@ -399,7 +401,7 @@ form.sidebar_fill {
   color:gray;
   cursor:pointer;
 }
-#reply, #reply
+#reply, #reply  
 {
    border-radius: 0 0 0 0;
     height: 77px;
@@ -412,4 +414,12 @@ form.sidebar_fill {
 table
 {
   font-size:inherit;
+}
+.time
+{
+  font-size:10px;
+}
+.comments_icons
+{
+  margin-top:23px;
 }
