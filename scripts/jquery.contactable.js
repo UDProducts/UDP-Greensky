@@ -174,58 +174,132 @@
 	};
 
 var x;
-$('textarea#message').live('keyup', function(e) {
+var y;
+$('textarea#message').live('keydown', function(e) {
 //alert(e.which);
 if(e.which != 8)
 {
  if (typeof x=='undefined' && e.which!=16)
   {
      x=9;
+     $('span#count').text(x+" characters left");
      
   }
  else if(x>0 && e.which!=16)
   {
      x=x-1;
+     $('span#count').text(x+" characters left");
   }
  else if(x<0 && e.which!=16)
   {
      x=0;
+    $('span#count').text(x+" characters left");
   }
-  $('span#count').text(x+" characters left");
-}
-else if(e.which == 8)
-{
-  x=x+1;
-  $('span#count').text(x+" characters left");
   
 }
+else if(e.which == 8)
+{ x=x+1;
+  if(x>10){
+   x=10;
+   }
+  $('span#count').text(x+" characters left");
+    
+}
 });
-$('div#comment-2309').live('keyup', function(e) {
+var z;
+var w;
+$('div#first_comment').live('keypress', function(e) {
 //alert(e.which);
+if(e.which==8 && typeof w=='undefined')
+{
+w=0;
+$('span#comment_count').text("10 characters left");
+}
+
 if(e.which != 8)
 {
- if (typeof x=='undefined' && e.which!=16)
+ if (typeof z=='undefined' && e.which!=16)
   {
-     x=9;
-     
+     z=9;
+     $('span#comment_count').text(z+" characters left");
   }
- else if(x>0 && e.which!=16)
+ else if(z>0 && e.which!=16)
   {
-     x=x-1;
+     z=z-1;
+     $('span#comment_count').text(z+" characters left");
   }
- else if(x<0 && e.which!=16)
+ else if(z<0 && e.which!=16)
   {
-     x=0;
+     z=0;
+     $('span#comment_count').text(z+" characters left");
   }
-  $('span#count').text(x+" characters left");
+  
 }
 else if(e.which == 8)
 {
-  x=x+1;
-  $('span#count').text(x+" characters left");
-  
+  z=z+1;
+   if(z>10){
+   z=10;
+   
+  $('span#comment_count').text(z+" characters left");
+  }
 }
 });
+
+var a;
+
+$('div#second_comment').live('keypress', function(e) {
+//alert(e.which);
+if(e.which==8 && typeof w=='undefined')
+{
+a=0;
+$('span#comment2_count').text("10 characters left");
+}
+
+if(e.which != 8)
+{
+ if (typeof a=='undefined' && e.which!=16)
+  {
+     a=9;
+      $('span#comment2_count').text(a+" characters left");
+  }
+ else if(a>0 && e.which!=16)
+  {
+     a=a-1;
+      $('span#comment2_count').text(a+" characters left");
+  }
+ else if(a<0 && e.which!=16)
+  {
+     a=0;
+      $('span#comment2_count').text(a+" characters left");
+  }
+ 
+}
+else if(e.which == 8)
+{
+  a=a+1;
+   if(a>10){
+   a=10;
+   
+  $('span#comment2_count').text(a+" characters left");
+  }
+}
+});
+
+
+
+/*$('input#name').live('keyup', function(e) {
+jQuery.validator.addMethod("lettersonly", function(value, element) {
+	return this.optional(element) || /^[a-z]+$/i.test(value);
+}, "Letters only please"); */
+
+$("input#name.contact.validate").validate({
+  rules: {
+    name: { lettersonly: true }
+  }
+});
+
+//});
  
 })(jQuery);
 

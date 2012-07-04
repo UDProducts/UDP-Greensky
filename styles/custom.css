@@ -17,7 +17,7 @@
   
   
 }
-#menu .active a, #menu li:hover > a , #submenu1 li:hover > a {
+ #menu li:hover > a, #submenu1 li:hover > a {
   background: #0399D4;
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#EBEBEB, endColorstr=#A1A1A1);
   background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), to(#A1A1A1));
@@ -30,7 +30,7 @@
 }
 
 
-#menu .active a, #menu li:hover > a, #submenu1 li:hover > a {
+ #menu li:hover > a,#menu li:hover > a.active ,#submenu1 li:hover > a{
    background: #6D6D6D !important;
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#EBEBEB, endColorstr=#A1A1A1);
   background: -webkit-gradient(linear, left top, left bottom,from(#EBEBEB), to(#A1A1A1)) !important;
@@ -41,6 +41,7 @@
   -moz-border-radius: 6em/5em;
   text-shadow: 2px 2px 3px #FFFFFF;
 }
+
 #menu li ul { 
   background: #DDDDDD;
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#CFCFCF);
@@ -61,8 +62,7 @@
   -moz-box-shadow: 2px 2px 3px #222222;
   box-shadow: 2px 2px 3px #222222;
 }
-/*#menu li a.dropdown-toggle:hover {
->>>>>>> gh-pages/gh-pages
+#menu li a.dropdown-toggle:hover {
   background: #6D6D6D !important;
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#EBEBEB, endColorstr=#A1A1A1);
   background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), to(#A1A1A1)) !important;
@@ -72,10 +72,7 @@
   -webkit-border-radius: 6em/5em;
   -moz-border-radius: 6em/5em;
   text-shadow: 2px 2px 3px #FFFFFF;
-<<<<<<< HEAD
 }
-=======
-}*/
 #menu li a.link:hover {
   background: #6D6D6D !important;
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#EBEBEB, endColorstr=#A1A1A1);
@@ -83,13 +80,23 @@
   background: -moz-linear-gradient(top,  #EBEBEB,  #A1A1A1) !important;
   color: #FFFFFF !important;
   border-radius: 0;
-  -webkit-border-radius: 6em/5.5em;
-  -moz-border-radius: 6em/5.5em;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  text-shadow: 2px 2px 3px #FFFFFF;
+}
+ul.second{
+ background: #6D6D6D !important;
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#EBEBEB, endColorstr=#A1A1A1);
+  background: -webkit-gradient(linear, left top, left bottom, from(#EBEBEB), to(#A1A1A1)) !important;
+  background: -moz-linear-gradient(top,  #EBEBEB,  #A1A1A1) !important;
+  color: #FFFFFF !important;
+  border-radius: 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   text-shadow: 2px 2px 3px #FFFFFF;
 }
 
 /*#menu ul {
->>>>>>> gh-pages/gh-pages
   background: #DDDDDD;
   filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr=#FFFFFF, endColorstr=#CFCFCF);
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFCFCF));
@@ -108,9 +115,6 @@
   -webkit-box-shadow: 2px 2px 3px #222222;
   -moz-box-shadow: 2px 2px 3px #222222;
   box-shadow: 2px 2px 3px #222222;
-<<<<<<< HEAD
-}
-=======
 }*/
 #menu li:hover > ul {
   display: block;
@@ -123,16 +127,14 @@
 }
 
 #menu ul a {
-  z-index:2000;
+  
   padding:10px 0px 10px 15px;
-  color:#6D6D6D !important;
+  color:#666666 !important;
   font-size:12px;
   font-style:normal;
   font-family:arial;
   font-weight: normal;
   text-shadow: 2px 2px 3px #FFFFFF;
-}
-#menu ul li:first > a {z-index:2000;
   }
 #menu ul li:first > a {
   border-top-left-radius: 10px;
@@ -160,12 +162,10 @@
   line-height: 0;
   height: 0;
 }
-#menu {z-index:2000;
-/*#menu {z-index:98;
->>>>>>> gh-pages/gh-pages
+#menu {z-index:98;
   display: block-inline;
 }
-  html[xmlns] #menu {
+/*  html[xmlns] #menu {
   display: block;
 }
 * html #menu-bar {
@@ -173,9 +173,6 @@
 }
 li #sub2212{
 z-index:3000;
-<<<<<<< HEAD
-}
-=======
 }*/
 #menu ul li.sublast a.link:hover {
   background: #6D6D6D !important;
@@ -184,11 +181,10 @@ z-index:3000;
   background: -moz-linear-gradient(top,  #EBEBEB,  #A1A1A1) !important;
   color: #FFFFFF !important;
   border-radius: 0;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
+  -webkit-border-radius: 6em/5em;
+  -moz-border-radius: 6em/5em;
   text-shadow: 2px 2px 3px #FFFFFF;
 }
-
 #rss,#del,#su,img#email{
 height:18px;
 width:17px;
@@ -227,4 +223,13 @@ width:19px;
   -moz-box-shadow: 2px 2px 2px #222222;
   box-shadow: 2px 2px 2px #222222;
 
+}
+#menubar{
+width:1158px;
+}
+#footer_list{
+display:inline;
+}
+a.social:hover{
+text-decoration:none;
 }

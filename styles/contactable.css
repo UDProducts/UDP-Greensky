@@ -23,7 +23,7 @@
 	background-color:lightblue;
 	border:2px solid #FFFFFF;
 	color:black;
-	height:356px;
+	height:407px;
 	left:0;
 	margin-left:-400px;
 	*margin-left:-434px;
@@ -76,9 +76,9 @@
 	width:100%;
 	z-index:0;
 } 
-#contactable .invalid { background-color: #EDBE9C; }
-#contactable #name.invalid { background-color: #EDBE9C; } 
-#contactable #email.invalid { background-color: #EDBE9C; }
+#contactable .invalid { background-color: #EDBE9C;width:288px; }
+#contactable #name.invalid { background-color: #EDBE9C;width:288px; } 
+#contactable #email.invalid { background-color: #EDBE9C;width:288px; }
 #contactable #comment.invalid { background-color: #EDBE9C; }
 
 #contactable form#contactForm label{
@@ -132,7 +132,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', end
   padding: 7px 0 8px 0;
   text-align: center;
   text-shadow: 0 -1px 0 #4c9021;
-  width: 326px; }
+  width: 288px; }
 
 #contactable form#contactForm .submit:hover {
     background: rgb(59,103,158); /* Old browsers */

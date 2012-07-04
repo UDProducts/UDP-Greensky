@@ -144,18 +144,7 @@
         <span class="blue"/> Green</span>SKY
       </a>
 
-      <a class="social" href="#">
-        <img src="images/facebook_icon.gif" alt="fb_icon"></img>
-        <img src="images/twitter_icon.png" alt="tweet_icon"></img>
-        <img id="rss" src="images/feed-icon-14x14.png" alt="rss_icon"></img>
-        <img id="gplus" src="images/gplus.png" alt="gplus_icon"></img>
-        <img id="del" src="images/del.png" alt="del_icon"></img>
-        <img id="su" src="images/su.jpg" alt="su_icon"></img>
-        <img id="lin" src="images/lin.jpeg" alt="lin_icon"></img>
-        <img id="email" src="images/email.gif" alt="mail_icon"></img>
-
-      </a>
-
+      
 
     </div>
 
@@ -452,6 +441,13 @@
         <option value="--">Latest Trends</option>
         <option value="--">--</option>
       </select>
+      <select id="videolist" onchange="addScript()">
+              <option value="Finance" >CAT</option>
+              
+              <option value="HRM" >MAT</option>
+              
+      </select>
+
       
       <a class="primary btn pull-right" id="exam_guidelines_lin" onClick="slideDownGuideLines();" href="javascript:void(0)" ><i class="icon-question-sign"> </i> Help: Exam guidelines</a>              
       <div class="well hide" id="instructions_modal">
@@ -517,8 +513,8 @@
                 <a class="" id="comments_like"><i class="icon-thumbs-up"></i>like(0)</a> &nbsp;
                 <a class="" id="comments_dislike"><i class="icon-thumbs-down"></i>dislike(0)</a>&nbsp;
                 <a class="" id="comments_reply" href="javascript:void(0)" onClick="slideDownReply1();"><i class="icon-repeat"></i>Reply(0)</a><span class="time pull-right">1day ago</span><br />
-                <div class="comments_text1">
-                  <textarea class="field" type="text" name="email" id="reply" placeholder="Enter Your comment here"></textarea><br />
+                <div class="comments_text1" id="first_comment">
+                  <textarea class="field" type="text" name="email" id="reply" placeholder="Enter Your comment here"></textarea><br /><span id="comment_count"></span>
                   <input type="submit" name="submit" value="Submit" class="btn primary" />
                 </div>
               </div>
@@ -542,8 +538,8 @@
               <a class="" id="comments_like"><i class="icon-thumbs-up"></i>like(0)</a> &nbsp;
               <a class="" id="comments_dislike"><i class="icon-thumbs-down"></i>dislike(0)</a>&nbsp;
               <a class="" id="comments_reply" href="javascript:void(0)" onClick="slideDownReply2();"><i class="icon-repeat"></i>Reply(0)</a><span class="time pull-right">2days ago</span><br />
-              <div class="comments_text2">
-                <textarea class="field" type="text" name="email" id="reply" placeholder="Enter Your comment here"></textarea><br />
+              <div class="comments_text2" id="second_comment">
+                <textarea class="field" type="text" name="email" id="reply" placeholder="Enter Your comment here"></textarea><br /><span id="comment2_count"></span>
                 <input type="submit" name="submit" value="Submit" class="btn primary" />
               </div>
 
@@ -554,18 +550,49 @@
     </div>
   </div>
          <div class="row">
-          <div class="span12">
+                      <div class="span12">
             <div id="videos" class="carousel slide btn-success">
               <script 
-                type="text/javascript" 
-                src="http://gdata.youtube.com/feeds/api/videos/-/goldendoodle?alt=json-in-script&callback=showMyVideos&max-results=40&format=5">
+                type="text/javascript" id="video_url" >
+                
+             function addScript() {
+//alert("in script" + $('#videolist').val());
+var s = document.createElement("script");
+s.type = "text/javascript";
+s.src = "http://gdata.youtube.com/feeds/api/videos/-/"+$('#videolist').val()+"?alt=json-in-script&callback=showMyVideos&max-results=40&format=5";
+//alert("src="+s.src);
+
+document.body.appendChild(s);
+//$('#video_url').attr("src",$src);
+}
+ $(document).ready(function() {
+  var s = document.createElement("script");
+s.type = "text/javascript";
+s.src = "http://gdata.youtube.com/feeds/api/videos/-/finance?alt=json-in-script&callback=showMyVideos&max-results=40&format=5";
+//alert("src="+s.src);
+
+document.body.appendChild(s);
+
+ });
               </script> 
-            </div>
+            </div>            </div>
           </div>
         </div>
         <div class="row">      
           <div class="span12">
             <div id="footer">
+<a class="social" href="#">
+        <img src="images/facebook_icon.gif" alt="fb_icon"></img>
+        <img src="images/twitter_icon.png" alt="tweet_icon"></img>
+        <img id="rss" src="images/feed-icon-14x14.png" alt="rss_icon"></img>
+        <img id="gplus" src="images/gplus.png" alt="gplus_icon"></img>
+        <img id="del" src="images/del.png" alt="del_icon"></img>
+        <img id="su" src="images/su.jpg" alt="su_icon"></img>
+        <img id="lin" src="images/lin.jpeg" alt="lin_icon"></img>
+        <img id="email" src="images/email.gif" alt="mail_icon"></img>
+
+      </a>
+
               <ul id="footer_list">
           
     <div id="contactable"><!-- contactable html placeholder --></div>
