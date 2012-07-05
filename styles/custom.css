@@ -130,7 +130,7 @@ ul.second{
   
   padding:10px 0px 10px 15px;
   color:#666666 !important;
-  font-size:12px;
+  font-size:inherit;
   font-style:normal;
   font-family:arial;
   font-weight: normal;
@@ -233,3 +233,5 @@ display:inline;
 a.social:hover{
 text-decoration:none;
 }
+
+

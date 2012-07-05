@@ -77,7 +77,7 @@
 			*	</form>
 			*/
 
-			jQuery(this).html('<div id="contactable_inner"></div><form id="contactForm" method="" action=""><div id="loading"></div><div id="callback"></div><div class="holder"><p><label for="name">'+options.name+'<span class="green"> * </span></label><br /><input id="name" class="contact validate" name="name" /></p><p><label for="email">'+options.email+' <span class="green"> * </span></label><br /><input id="email" class="contact validate" name="email" /></p>'+dropdown+'<p><label for="message">'+options.message+' <span class="green"> * </span></label><br /><textarea id="message" name="message" class="message validate" rows="4" cols="30" maxlength="10" ></textarea></p><p><span id="count" name="count" /></p><p><input class="submit" type="submit" value="'+options.submit+'"/></p><p class="disclaimer">'+options.disclaimer+'</p></div></form>');
+			jQuery(this).html('<div id="contactable_inner"></div><div id="contact_form"><form id="contactForm" method="" action=""><div id="loading"></div><div id="callback"></div><div class="holder"><p class="field" id="contact_name"><label for="name">'+options.name+'<span class="green"> * </span></label><br /><input id="name" class="contact validate" name="name" /></p><p class="field" id="contact_email"><label for="email">'+options.email+' <span class="green"> * </span></label><br /><input id="email" class="contact validate" name="email" /></p>'+dropdown+'<p class="field" id="contact_message"><label for="message">'+options.message+' <span class="green"> * </span></label><br /><textarea id="message" name="message" class="message validate" rows="4" cols="30" maxlength="10" ></textarea></p><p><span id="count" name="count" /></p><p><input class="submit" type="submit" value="'+options.submit+'"/></p><p class="disclaimer">'+options.disclaimer+'</p></div></form></div>');
 			
 			// Toggle the form visibility
 			jQuery(this_id_prefix+'div#contactable_inner').toggle(function() {
@@ -286,12 +286,18 @@ else if(e.which == 8)
 }
 });
 
+var $box = $('#contact_form');
+$(document).click(function(){//alert($(box).closest('div').attr("id"));
+    if (!$box.has(this).length) { // if the click was not within $box
+        $box.hide();
+    }
+});
 
-
-/*$('input#name').live('keyup', function(e) {
+/*
+$('input#name').live('keyup', function(e) {
 jQuery.validator.addMethod("lettersonly", function(value, element) {
 	return this.optional(element) || /^[a-z]+$/i.test(value);
-}, "Letters only please"); */
+}, "Letters only please"); 
 
 $("input#name.contact.validate").validate({
   rules: {
@@ -299,7 +305,18 @@ $("input#name.contact.validate").validate({
   }
 });
 
-//});
+//});*/
+/*$(document).click(function(e) {//alert("e");
+ //Hide the menus if visible
+//alert(e.target.id);
+if(e.target.id=="contactable_inner")
+$('#contactForm').show();
+else
+$('#contactForm').hide();
+ });*/
+
+
+
  
 })(jQuery);
 

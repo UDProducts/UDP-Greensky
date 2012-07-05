@@ -234,6 +234,16 @@ $(document).ready(function() {
     btnPlusMaxHits: 5,
     sizeChange: 1
   });
+ /*$('#plus-button').live('click',function(){
+   //alert('exp');
+  $('a.resize').jfontsize({
+    btnMinusClasseId: '#minus-button',
+    btnPlusClasseId: '#plus-button',
+    btnMinusMaxHits: 5,
+    btnPlusMaxHits: 5,
+    sizeChange: 1
+  });
+ });*/
   
   $("#instructions_modal").modal({
     keyboard: true,

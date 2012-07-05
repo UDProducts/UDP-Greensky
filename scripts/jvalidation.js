@@ -176,3 +176,4 @@ jQuery.fn.liveValidation = function (conf, addedFields) {
 		});
 	});
 };
+

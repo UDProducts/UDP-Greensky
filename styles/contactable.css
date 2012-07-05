@@ -41,14 +41,14 @@
 	background:#FFFFFF none repeat scroll 0 0;
 	outline-style:none;
 	outline-width:medium;
-	width:325px;
+	width:288px;
 	padding:5px;
 	border:1px solid #dfdfdf;
 	font-size:1em;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 #contactable form#contactForm select {
-	width:335px;
+	width:288px;
 }
 
 #contactable form#contactForm p {
@@ -156,5 +156,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', end
     
    textarea#message
     {
-      width:325px;
+      width:288px;
     }
