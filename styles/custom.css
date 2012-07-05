@@ -234,4 +234,17 @@ a.social:hover{
 text-decoration:none;
 }
 
+span#exam_cat{
+margin-left:300px;
 
+}
+span#exam_sections{
+margin-left:224px;
+
+}
+select#section{
+width:63px;
+}
+select#exam{
+width:133px;
+}
