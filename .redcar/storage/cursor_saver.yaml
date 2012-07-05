@@ -6,9 +6,6 @@ cursor_positions:
   - :path: scripts/jquery.contactable.js
     :cursor_offset: 0
     :timestamp: 2012-07-04 23:43:12 +05:30
-  - :path: scripts/bootstrap.js
-    :cursor_offset: 0
-    :timestamp: 2012-07-04 23:42:35 +05:30
   - :path: styles/droppy.css
     :cursor_offset: 379
     :timestamp: 2012-07-05 09:15:07 +05:30
@@ -27,13 +24,19 @@ cursor_positions:
   - :path: styles/accordion.core.css
     :cursor_offset: 0
     :timestamp: 2012-07-04 23:42:35 +05:30
-  - :path: styles/bootstrap.css
-    :cursor_offset: 0
-    :timestamp: 2012-07-04 23:42:35 +05:30
   - :path: styles/page.css
     :cursor_offset: 0
     :timestamp: 2012-07-04 23:43:12 +05:30
   - :path: scripts/page.js
     :cursor_offset: 0
     :timestamp: 2012-07-04 23:43:12 +05:30
+  - :path: scripts/jquery.contactable.js.orig
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 12:02:51 +05:30
+  - :path: styles/bootstrap.css
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 11:52:59 +05:30
+  - :path: scripts/bootstrap.js
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 11:52:59 +05:30
 files_to_retain: 0
