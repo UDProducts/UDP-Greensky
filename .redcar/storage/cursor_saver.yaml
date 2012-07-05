@@ -1,36 +1,42 @@
 --- 
 cursor_positions: 
-  - :path: scripts/jquery.contactable.js
-    :cursor_offset: 7614
-    :timestamp: 2012-07-03 12:57:19 +05:30
-  - :path: scripts/bootstrap.js
-    :cursor_offset: 0
-    :timestamp: 2012-07-03 12:11:50 +05:30
-  - :path: styles/bootstrap.css
-    :cursor_offset: 0
-    :timestamp: 2012-07-03 12:54:31 +05:30
-  - :path: styles/accordion.core.css
-    :cursor_offset: 0
-    :timestamp: 2012-07-03 12:54:31 +05:30
-  - :path: scripts/jquery.accordion.2.0.js
-    :cursor_offset: 0
-    :timestamp: 2012-07-03 12:11:50 +05:30
-  - :path: scripts/slide.js
-    :cursor_offset: 0
-    :timestamp: 2012-07-03 12:11:50 +05:30
-  - :path: scripts/swfobject.js
-    :cursor_offset: 0
-    :timestamp: 2012-07-03 12:11:50 +05:30
-  - :path: styles/contactable.css
-    :cursor_offset: 0
-    :timestamp: 2012-07-03 12:54:31 +05:30
-  - :path: scripts/page.js
-    :cursor_offset: 0
-    :timestamp: 2012-07-03 12:54:31 +05:30
   - :path: index.html
     :cursor_offset: 4254
     :timestamp: 2012-07-03 15:22:44 +05:30
+  - :path: scripts/jquery.contactable.js
+    :cursor_offset: 0
+    :timestamp: 2012-07-04 23:43:12 +05:30
+  - :path: styles/droppy.css
+    :cursor_offset: 379
+    :timestamp: 2012-07-05 09:15:07 +05:30
+  - :path: styles/contactable.css
+    :cursor_offset: 0
+    :timestamp: 2012-07-04 23:43:12 +05:30
+  - :path: scripts/swfobject.js
+    :cursor_offset: 0
+    :timestamp: 2012-07-04 23:42:35 +05:30
+  - :path: scripts/slide.js
+    :cursor_offset: 0
+    :timestamp: 2012-07-04 23:42:35 +05:30
+  - :path: scripts/jquery.accordion.2.0.js
+    :cursor_offset: 0
+    :timestamp: 2012-07-04 23:42:35 +05:30
+  - :path: styles/accordion.core.css
+    :cursor_offset: 0
+    :timestamp: 2012-07-04 23:42:35 +05:30
   - :path: styles/page.css
-    :cursor_offset: 1560
-    :timestamp: 2012-07-03 16:04:21 +05:30
+    :cursor_offset: 0
+    :timestamp: 2012-07-04 23:43:12 +05:30
+  - :path: scripts/page.js
+    :cursor_offset: 0
+    :timestamp: 2012-07-04 23:43:12 +05:30
+  - :path: scripts/jquery.contactable.js.orig
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 12:02:51 +05:30
+  - :path: styles/bootstrap.css
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 11:52:59 +05:30
+  - :path: scripts/bootstrap.js
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 11:52:59 +05:30
 files_to_retain: 0

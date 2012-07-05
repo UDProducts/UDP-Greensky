@@ -238,10 +238,10 @@
           </div>
         </div> -->
 
-        <div id="alert_message" class="subnav subnav-fixed alert alert-success" style="">
+       <!-- <div id="alert_message" class="subnav subnav-fixed alert alert-success" style="">
           <a class="close" href="#" data-dismiss="alert">x</a>
           Testing
-        </div>
+        </div>-->
         <div class="row">
           <div id="breadcrums" class="span10" >
             <ul class="breadcrumb">
@@ -550,24 +550,24 @@
                 type="text/javascript" id="video_url" >
                 
              function addScript() {
-//alert("in script" + $('#videolist').val());
-var s = document.createElement("script");
-s.type = "text/javascript";
-s.src = "http://gdata.youtube.com/feeds/api/videos/-/"+$('#videolist').val()+"?alt=json-in-script&callback=showMyVideos&max-results=40&format=5";
-//alert("src="+s.src);
-
-document.body.appendChild(s);
-//$('#video_url').attr("src",$src);
-}
- $(document).ready(function() {
-  var s = document.createElement("script");
-s.type = "text/javascript";
-s.src = "http://gdata.youtube.com/feeds/api/videos/-/finance?alt=json-in-script&callback=showMyVideos&max-results=40&format=5";
-//alert("src="+s.src);
-
-document.body.appendChild(s);
-
- });
+                //alert("in script" + $('#videolist').val());
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.src = "http://gdata.youtube.com/feeds/api/videos/-/"+$('#videolist').val()+"?alt=json-in-script&callback=showMyVideos&max-results=40&format=5";
+                //alert("src="+s.src);
+                
+                document.body.appendChild(s);
+                //$('#video_url').attr("src",$src);
+                }
+                 $(document).ready(function() {
+                  var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.src = "http://gdata.youtube.com/feeds/api/videos/-/finance?alt=json-in-script&callback=showMyVideos&max-results=40&format=5";
+                //alert("src="+s.src);
+                
+                document.body.appendChild(s);
+                
+               });
               </script> 
             </div>            </div>
           </div>
@@ -575,19 +575,28 @@ document.body.appendChild(s);
         <div class="row">      
           <div class="span12">
             <div id="footer">
-<a class="social" href="#">
-        <img src="images/facebook_icon.gif" alt="fb_icon"></img>
-        <img src="images/twitter_icon.png" alt="tweet_icon"></img>
-        <img id="rss" src="images/feed-icon-14x14.png" alt="rss_icon"></img>
-        <img id="gplus" src="images/gplus.png" alt="gplus_icon"></img>
-        <img id="del" src="images/del.png" alt="del_icon"></img>
-        <img id="su" src="images/su.jpg" alt="su_icon"></img>
-        <img id="lin" src="images/lin.jpeg" alt="lin_icon"></img>
-        <img id="email" src="images/email.gif" alt="mail_icon"></img>
+              <center>
+              <a href="#">Privacy</a>
+              <a href="#">Terms & Condition</a>
+              <a href="#">Contact</a>
+              <a href="#"><img src="images/facebook_icon.gif" alt="fb_icon"></img></a>
+              <a href="#"><img src="images/twitter_icon.png" alt="tweet_icon"></img></a>
+              <a href="#"><img id="rss" src="images/feed-icon-14x14.png" alt="rss_icon"></img></a>
+              <a href="#"><img id="gplus" src="images/gplus.png" alt="gplus_icon"></img></a>
+              <a href="#"><img id="del" src="images/del.png" alt="del_icon"></img></a>
+              <a href="#"><img id="su" src="images/su.jpg" alt="su_icon"></img></a>
+              <a href="#"><img id="lin" src="images/lin.jpeg" alt="lin_icon"></img></a>
+              <a href="#"><img id="email" src="images/email.gif" alt="mail_icon"></img></a>
 
-      </a>
+          
+          
+          
+          
+          
+  
+      </center>
 
-              <ul id="footer_list">
+        
           
     <div id="contactable"><!-- contactable html placeholder --></div>
    

@@ -5,7 +5,7 @@
   #menu a { display: block; }
   #menu ul { display: none; position: absolute; left: 0; margin: 0; padding: 0; }
   * html #menu ul { line-height: 0; } /* IE6 "fix" */
-  	#menu ul a { zoom: 2; } /* IE6/7 fix */
+
     #menu ul li { float: none; }
     #menu ul ul { top: 0; }
     

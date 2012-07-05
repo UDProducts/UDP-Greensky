@@ -255,7 +255,7 @@ $(document).ready(function() {
   }); 
   
   $('#contactable').contactable({
-    subject: 'A Feeback Message'
+    subject: 'Message'
   });
   
   
@@ -283,12 +283,71 @@ $(document).ready(function() {
     $(this).tab('show');
   })
   
-  jQuery('#contactable').liveValidation({
+
+ 
+  $('#name').keyup(function(){
+    
+   jQuery('#contactable').liveValidation({
       validIco:    'images/valid.png', 
       invalidIco:  'images/invalid.png', 
-      required:    ['name', 'email', 'message'], 
+      required:    ['name'], 
       fields:        {name: /^[a-z]+$/i}
+    });
+
   });
+  
+  $('#mail').keyup(function(){
+    
+   jQuery('#contactable').liveValidation({
+      validIco:    'images/valid.png', 
+      invalidIco:  'images/invalid.png', 
+      required:    ['mail'], 
+      fields:        {mail: /^[a-z]+$/i}
+    });
+
+  });
+  
+  $('#message').keyup(function(){
+    
+   jQuery('#contactable').liveValidation({
+      validIco:    'images/valid.png', 
+      invalidIco:  'images/invalid.png', 
+      required:    ['message'], 
+      fields:        {name: /^[a-z]+$/i}
+    });
+
+  });
+  
+  
+
+    
+  $('#contactable form#contactForm .submit').click(function(){
+    
+   jQuery('#contactable').liveValidation({
+      validIco:    'images/valid.png', 
+      invalidIco:  'images/invalid.png', 
+      required:    ['name', 'mail', 'message'], 
+      fields:        {name: /^[a-z]+$/i},
+      fields:        {mail: /^[a-z]+$/i}
+    });
+
+  });
+
+  
+  
+  var n1 = Math.round(Math.random() * 10 + 1);
+    var n2 = Math.round(Math.random() * 10 + 1);
+    $("#a").val(n1 + " + " + n2);
+    $("#c").click(function() {
+        if (eval($("#a").val()) == $("#b").val()) {
+            alert("Your message submitted");
+        } else {
+            alert("Captcha miss match");
+        }
+    });
+
+
+
 
 });
 

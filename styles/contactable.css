@@ -1,5 +1,5 @@
 #contactable #contactable_inner {
-	background-image:url("../images/contact1.png");
+	background-image:url("../images/contact.png");
 	color:#FFFFFF;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 16px;
@@ -14,7 +14,7 @@
 	position:fixed;
 	*position:absolute;
 	text-indent:-100000px;
-	top:121px;
+	top:102px;
 	*margin-top:10px;
 	width:44px;
 }
@@ -22,8 +22,8 @@
 #contactable #contactForm {
 	background-color:lightblue;
 	border:2px solid #FFFFFF;
-	color:black;
-	height:407px;
+	color:#41403B;
+	height:483px;
 	left:0;
 	margin-left:-400px;
 	*margin-left:-434px;
@@ -38,17 +38,33 @@
 }
 
 #contactable form#contactForm input, textarea, select {
-	background:#FFFFFF none repeat scroll 0 0;
+	background:#E8F5FB none repeat scroll 0 0;
 	outline-style:none;
 	outline-width:medium;
 	width:288px;
 	padding:5px;
-	border:1px solid #dfdfdf;
-	font-size:1em;
+	border:1px solid #BBBBBB;
+	font-size:14px;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	height:16px;
+
 }
+
+#contactable form#contactForm input:focus, textarea:focus, select:focus
+{
+   border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+  -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+  -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+   box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+   background:white;
+}
+ 
 #contactable form#contactForm select {
 	width:288px;
+
 }
 
 #contactable form#contactForm p {
@@ -76,10 +92,10 @@
 	width:100%;
 	z-index:0;
 } 
-#contactable .invalid { background-color: #EDBE9C;width:288px; }
-#contactable #name.invalid { background-color: #EDBE9C;width:288px; } 
-#contactable #email.invalid { background-color: #EDBE9C;width:288px; }
-#contactable #comment.invalid { background-color: #EDBE9C; }
+/*#contactable .invalid { background-color: #EDBE9C; }
+#contactable #name.invalid { background-color: #EDBE9C; } 
+#contactable #email.invalid { background-color: #EDBE9C; }
+#contactable #comment.invalid { background-color: #EDBE9C; } */ 
 
 #contactable form#contactForm label{
 	*margin-left:20px;
@@ -109,7 +125,7 @@
 }	
 
 /* Submit button */
-#contactable form#contactForm .submit {
+#contactable form#contactForm .submit  {
  background: rgb(59,103,158); /* Old browsers */
 background: -moz-linear-gradient(top, rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 100%, rgba(125,185,232,1) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(59,103,158,1)), color-stop(50%,rgba(43,136,217,1)), color-stop(100%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
@@ -127,12 +143,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', end
   -moz-box-shadow: inset 0 1px 0 0 #96ca6d;
   box-shadow: inset 0 1px 0 0 #3B679E;
   color: #fff;
-  font: bold 11px "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
   line-height: 1;
   padding: 7px 0 8px 0;
   text-align: center;
   text-shadow: 0 -1px 0 #4c9021;
-  width: 288px; }
+  width: 326px;
+  height:31px;
+ }
 
 #contactable form#contactForm .submit:hover {
     background: rgb(59,103,158); /* Old browsers */
@@ -154,7 +171,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', end
     -moz-box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee;
     box-shadow: inset 0 0 8px 4px #548c29, 0 1px 0 0 #eeeeee; }
     
-   textarea#message
+    
+    
+    .message
     {
       width:288px;
+      background:#E8F5FB;
+    }
+
+    #contactable form#contactForm .mail_drop select
+    {
+      width:106px;
+    }
+
+    #contactable form#contactForm .mail_drop input
+    {
+      width:158px;
+
+    }
+    .holder img
+    {
+      position:absolute;
     }
