@@ -2,12 +2,7 @@
 open_files: 
   - scripts/page.js
   - index.html
-  - styles/page.css
-  - styles/bootstrap.css
-  - scripts/bootstrap.js
-  - scripts/jquery.contactable.js
   - styles/accordion.core.css
-  - scripts/jquery.accordion.2.0.js
-  - scripts/slide.js
-  - scripts/swfobject.js
   - styles/contactable.css
+  - scripts/jquery.jfontsize-1.0.min.js
+  - styles/custom.css

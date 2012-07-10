@@ -130,6 +130,7 @@
           <li class="sep">|</li>
           <li id="toggle">
             <a id="open" class="open" href="#">Log In | Register</a>
+<!--            <a href="#">Log Out</a> -->
             <a id="close" style="display: none;" class="closes" href="#">Close Panel</a>
           </li>
           <li class="right">&nbsp;</li>
@@ -213,7 +214,7 @@
                   <li><a href="#">Help</a></li>
                 </ul>
               </li>
-              <li><a id="logout" href="javascript:void(0)" onClick="slideDownLogin();"><i class="icon-off icon-white"></i> Logout</a></li>
+<!--              <li><a id="logout" href="javascript:void(0)" onClick="slideDownLogin();"><i class="icon-off icon-white"></i> Logout</a></li>-->
             </ul>
           </div>
 
@@ -426,7 +427,7 @@
               <a class="accordion-toggle" data-toggle="collapse" data-parent="#side_bar_items" href="#side_bar_item_1">How to apply for exam?</a>
             </div>
             <div id="side_bar_item_1" class="accordion-body collapse">
-              <div class="accordion-inner">Anim pariaturr cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. </div>
+              <div class="accordion-inner"><p>Anim pariaturr cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. </p></div>
             </div>
           </div>
           <div class="accordion-group">
@@ -434,7 +435,7 @@
               <a class="accordion-toggle" data-toggle="collapse" data-parent="#side_bar_items" href="#side_bar_item_2">Where can I find...?</a>
             </div>
             <div id="side_bar_item_2" class="accordion-body collapse">
-              <div class="accordion-inner">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute</div>
+              <div class="accordion-inner"><p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute</p></div>
             </div>
           </div>
         </div>
@@ -501,7 +502,12 @@
         </div>
       </div>
       <div id="comments_list" class="well alert-success">
-
+        <div class="comments_links">
+          <select id="comments_type">
+            <option value="1" >Popularity</option>
+            <option value="2" >Latest</option>
+          </select>
+        </div>
         <div class="comment-container" id="comment-2309">
           <div class="comment-left">
             <img alt="" src="images/noprofile.jpg" class="avatar avatar-64 photo" height="64" width="64"/>

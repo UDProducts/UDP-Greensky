@@ -1,42 +1,48 @@
 --- 
 cursor_positions: 
-  - :path: index.html
-    :cursor_offset: 4254
-    :timestamp: 2012-07-03 15:22:44 +05:30
-  - :path: scripts/jquery.contactable.js
-    :cursor_offset: 0
-    :timestamp: 2012-07-04 23:43:12 +05:30
   - :path: styles/droppy.css
     :cursor_offset: 379
     :timestamp: 2012-07-05 09:15:07 +05:30
-  - :path: styles/contactable.css
+  - :path: scripts/bootstrap.js
     :cursor_offset: 0
-    :timestamp: 2012-07-04 23:43:12 +05:30
-  - :path: scripts/swfobject.js
+    :timestamp: 2012-07-04 23:42:35 +05:30
+  - :path: styles/bootstrap.css
+    :cursor_offset: 0
+    :timestamp: 2012-07-04 23:42:35 +05:30
+  - :path: styles/page.css
+    :cursor_offset: 0
+    :timestamp: 2012-07-05 16:37:54 +05:30
+  - :path: scripts/jquery.accordion.2.0.js
     :cursor_offset: 0
     :timestamp: 2012-07-04 23:42:35 +05:30
   - :path: scripts/slide.js
     :cursor_offset: 0
     :timestamp: 2012-07-04 23:42:35 +05:30
-  - :path: scripts/jquery.accordion.2.0.js
+  - :path: scripts/swfobject.js
     :cursor_offset: 0
     :timestamp: 2012-07-04 23:42:35 +05:30
+  - :path: scripts/page.js
+    :cursor_offset: 7953
+    :timestamp: 2012-07-09 20:09:18 +05:30
+  - :path: index.html
+    :cursor_offset: 0
+    :timestamp: 2012-07-06 17:11:34 +05:30
   - :path: styles/accordion.core.css
     :cursor_offset: 0
     :timestamp: 2012-07-04 23:42:35 +05:30
-  - :path: styles/page.css
+  - :path: styles/contactable.css
     :cursor_offset: 0
-    :timestamp: 2012-07-04 23:43:12 +05:30
-  - :path: scripts/page.js
-    :cursor_offset: 0
-    :timestamp: 2012-07-04 23:43:12 +05:30
+    :timestamp: 2012-07-05 16:37:54 +05:30
+  - :path: styles/custom.css
+    :cursor_offset: 2047
+    :timestamp: 2012-07-09 20:19:45 +05:30
+  - :path: scripts/jquery.jfontsize-1.0.min.js
+    :cursor_offset: 634
+    :timestamp: 2012-07-09 19:59:46 +05:30
+  - :path: scripts/jquery.contactable.js
+    :cursor_offset: 3613
+    :timestamp: 2012-07-10 18:37:07 +05:30
   - :path: scripts/jquery.contactable.js.orig
-    :cursor_offset: 0
-    :timestamp: 2012-07-05 12:02:51 +05:30
-  - :path: styles/bootstrap.css
-    :cursor_offset: 0
-    :timestamp: 2012-07-05 11:52:59 +05:30
-  - :path: scripts/bootstrap.js
-    :cursor_offset: 0
-    :timestamp: 2012-07-05 11:52:59 +05:30
+    :cursor_offset: 385
+    :timestamp: 2012-07-04 23:43:12 +05:30
 files_to_retain: 0

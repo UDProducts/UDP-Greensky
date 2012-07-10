@@ -230,8 +230,8 @@ $(document).ready(function() {
   $(document.body).jfontsize({
     btnMinusClasseId: '#minus-button',
     btnPlusClasseId: '#plus-button',
-    btnMinusMaxHits: 5,
-    btnPlusMaxHits: 5,
+    btnMinusMaxHits: 2,
+    btnPlusMaxHits: 2,
     sizeChange: 1
   });
  /*$('#plus-button').live('click',function(){
